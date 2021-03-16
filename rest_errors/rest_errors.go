@@ -10,7 +10,7 @@ type RestErr interface {
 	Message() string
 	Status() int
 	Error() string
-	Causes() []interface{}
+	// Causes() []interface{}
 }
 
 type restErr struct {
